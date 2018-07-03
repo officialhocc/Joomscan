@@ -1,0 +1,51 @@
+
+[+] Detecting Joomla Version
+[++] Joomla 3.8.1
+
+[+] Core Joomla Vulnerability
+[++] Target Joomla core is not vulnerable
+
+[+] Checking Directory Listing
+[++] directory has directory listing : 
+http://10.10.10.71:8080/joomla/administrator/components
+http://10.10.10.71:8080/joomla/administrator/modules
+http://10.10.10.71:8080/joomla/administrator/templates
+http://10.10.10.71:8080/joomla/images/banners
+
+
+[+] Checking apache info/status files
+[++] Readable info/status files are not found
+
+[+] admin finder
+[++] Admin page : http://10.10.10.71:8080/joomla/administrator/
+
+[+] Checking robots.txt existing
+[++] robots.txt is found
+path : http://10.10.10.71:8080/joomla/robots.txt 
+
+Interesting path found from robots.txt
+http://10.10.10.71:8080/joomla/joomla/administrator/
+http://10.10.10.71:8080/joomla/administrator/
+http://10.10.10.71:8080/joomla/bin/
+http://10.10.10.71:8080/joomla/cache/
+http://10.10.10.71:8080/joomla/cli/
+http://10.10.10.71:8080/joomla/components/
+http://10.10.10.71:8080/joomla/includes/
+http://10.10.10.71:8080/joomla/installation/
+http://10.10.10.71:8080/joomla/language/
+http://10.10.10.71:8080/joomla/layouts/
+http://10.10.10.71:8080/joomla/libraries/
+http://10.10.10.71:8080/joomla/logs/
+http://10.10.10.71:8080/joomla/modules/
+http://10.10.10.71:8080/joomla/plugins/
+http://10.10.10.71:8080/joomla/tmp/
+
+
+[+] Finding common backup files name
+[++] Backup files are not found
+
+[+] Finding common log files name
+[++] error log is not found
+
+[+] Checking sensitive config.php.x file
+[++] Readable config files are not found
